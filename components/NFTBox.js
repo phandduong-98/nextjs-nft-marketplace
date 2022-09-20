@@ -137,6 +137,7 @@ export default function NFTBox({
                                 <div className="flex flex-col items-start">
                                     <Image
                                         loader={() => imageURI}
+                                        unoptimized={true}
                                         src={imageURI}
                                         height="200"
                                         width="200"
